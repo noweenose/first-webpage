@@ -5,12 +5,13 @@ body {
 
 *{
     font-family:'Roboto';
-    color:white;
 }
 .section-one {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+
+    color:white;
 }
 
 .header{
@@ -92,4 +93,48 @@ a{
     padding-inline: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.section-two{
+  height: 140px;
+  margin: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textmiddle{
+    font-size: 36px;
+    padding: 32px;
+    font-weight:  900;
+    color: #1f2937;
+}
+
+.boxesgroup{
+    display:flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.box-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.boxes{
+  width: 120px;
+  height: 120px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+  
+}
+
+.box-text {
+  max-width: 150px;
+  font-size: 16px;
+  color: #1f2937;
 }
