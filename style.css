@@ -10,15 +10,15 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
-    border: 4px solid red;
     background-color: #1f2937;
 }
 
 .header{
     display:flex;   
     justify-content: space-between;
-    padding-inline-start: 150px;
-    padding-inline-end: 250px;
+    padding-inline-start: 350px;
+    padding-inline-end: 350px;
+    padding-top: 10px;
 }
 
 .header .one{
@@ -26,14 +26,22 @@ body {
     align-items: center;
     color:#F9FAF8;
     font-size: 24px;
+    font-weight: 0;
     
+}
+#logo{
+    font-weight:900;
 }
 
 .link-box{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px solid red;
+    gap: 35px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .link-box .one{
@@ -41,14 +49,47 @@ body {
     color: #E5E7EB;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+     width: 400px;
+}
+
+.hero .hero-image{
+    display:flex;
+    background:gray;
+    height: 250px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
 
 .hero .two{
     font-size: 48px;
     color: #f9faf8;
-    weight: 900;
+    font-weight: 900;
+    text-align: left;
 }
 
 .hero .three{
     font-size: 18px;
     color: #E5E7EB;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.four {
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0px;
+    padding-inline: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
