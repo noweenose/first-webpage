@@ -173,3 +173,40 @@ a{
     padding-left: 600px;
 }
 
+.section-four{
+    color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    margin: 80px;
+    padding: 80px;  
+}
+
+.CTObox{
+    display: flex;
+    gap: 200px;
+    padding-inline: 150px;
+    padding-block: 50px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    background-color: #3882F6;
+}
+
+.CTObutton {
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-inline: 40px;
+}
+
+.ctomaintext{
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+}
+
+.ctosuptext{
+    font-weight: 300;
+}
