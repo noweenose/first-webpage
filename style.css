@@ -96,12 +96,12 @@ a{
 }
 
 .section-two{
-  height: 140px;
-  margin: 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
+  padding-top: 40px;
 }
 
 .textmiddle{
@@ -115,7 +115,9 @@ a{
     display:flex;
     flex-direction: row;
     gap: 48px;
+    padding: 12px
 }
+
 
 .box-item {
   display: flex;
@@ -136,5 +138,38 @@ a{
 .box-text {
   max-width: 150px;
   font-size: 16px;
-  color: #1f2937;
+  color: #1f2937;   
 }
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.quote-item {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 800px;
+    padding: 120px;
+    
+}
+
+.section-three .quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.section-three .author{
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-left: 600px;
+}
+
